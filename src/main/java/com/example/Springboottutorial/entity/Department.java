@@ -11,9 +11,9 @@ public class Department {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long departmentId;
-    private String deparmentName;
-    private String deparmentAddress;
-    private String deparmentCode;
+    private String departmentName;
+    private String departmentAddress;
+    private String departmentCode;
 
     public Long getDepartmentId() {
         return departmentId;
@@ -23,44 +23,44 @@ public class Department {
         this.departmentId = departmentId;
     }
 
-    public String getDeparmentName() {
-        return deparmentName;
+    public String getDepartmentName() {
+        return departmentName;
     }
 
-    public void setDeparmentName(String deparmentName) {
-        this.deparmentName = deparmentName;
+    public void setDepartmentName(String departmentName) {
+        this.departmentName = departmentName;
     }
 
-    public String getDeparmentAddress() {
-        return deparmentAddress;
+    public String getDepartmentAddress() {
+        return departmentAddress;
     }
 
-    public void setDeparmentAddress(String deparmentAddress) {
-        this.deparmentAddress = deparmentAddress;
+    public void setDepartmentAddress(String departmentAddress) {
+        this.departmentAddress = departmentAddress;
     }
 
-    public String getDeparmentCode() {
-        return deparmentCode;
+    public String getDepartmentCode() {
+        return departmentCode;
     }
 
-    public void setDeparmentCode(String deparmentCode) {
-        this.deparmentCode = deparmentCode;
+    public void setDepartmentCode(String departmentCode) {
+        this.departmentCode = departmentCode;
     }
 
-    public Department(Long departmentId, String deparmentName, String deparmentAddress, String deparmentCode) {
+    public Department(Long departmentId, String departmentName, String departmentAddress, String departmentCode) {
         this.departmentId = departmentId;
-        this.deparmentName = deparmentName;
-        this.deparmentAddress = deparmentAddress;
-        this.deparmentCode = deparmentCode;
+        this.departmentName = departmentName;
+        this.departmentAddress = departmentAddress;
+        this.departmentCode = departmentCode;
     }
 
     @Override
     public String toString() {
         return "Department{" +
                 "departmentId=" + departmentId +
-                ", deparmentName='" + deparmentName + '\'' +
-                ", deparmentAddress='" + deparmentAddress + '\'' +
-                ", deparmentCode='" + deparmentCode + '\'' +
+                ", departmentName='" + departmentName + '\'' +
+                ", departmentAddress='" + departmentAddress + '\'' +
+                ", departmentCode='" + departmentCode + '\'' +
                 '}';
     }
 }
