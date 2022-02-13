@@ -3,7 +3,6 @@ package com.example.Springboottutorial.controller;
 import com.example.Springboottutorial.entity.Department;
 import com.example.Springboottutorial.error.DepartmentNotFoundException;
 import com.example.Springboottutorial.service.DepartmentService;
-import com.example.Springboottutorial.service.DepartmentServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
